@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+<body>
+    <h1>Осваимаем механнику работы HTML</h1>
+    <p>ниже был тег "hr/", с добавлением ('size'; 'noshade'; 'width'; 'color')</p>
+        <hr size="20" noshade width="850" color="grin"/>
+    <hr/>
+
+    <h3>Это заголовок, он создается с помощью "h1"-"h6"</h3>
+        <p>Это порагаф, он создается с помощью "p"</p>
+    <hr/>
+
+    <h3>Пример с тегом "ul"</h3>
+        <ul>
+            <li><=тут тег "li" для перечисления=></li>
+            <li>тут тег =><strong>"strong"</strong><= для выделения</li>
+            <li>'можно изменять вид перечесления с помощью (circle; disc; square)'</li>
+            
+        </ul>
+    <hr/>
+
+    <h3>Пример с тегом "ol"</h3>
+        <ol>
+            <li>тут тег =><em>"em"</em><= для выделения</li>
+            <li>ниже был тег =>"br/"<= для отступа</li>
+            <br/>
+            <li>'можно менять вид перечесления с помощью (a; A; i; I; 1)'</li>    
+        </ol>
+    <hr/>
+
+    <h3>Добавляем ссылки с помощью тега "a href"</h3>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">https://www.youtube.com/watch?v=dQw4w9WgXcQ</a></li>
+            <li><a href="https://www.youtube.com/watch?v=8UVNT4wvIGY">можно менять содержимое внутри тега 'a', но не сам атрибут </a></li>
+        </ul>
+    <hr/>
+
+    <h3>Делаем так что ссылка не закрывала старую вкладку</h3>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">добавляем к атрибуту значение (target="_blank")</a>
+    <hr/>
+
+    <h3>Так же можно создать множество страниц для своего сайта через новые папки HTML и соеденив их спомощью ссыли</h3>
+       <a href="css.html" target="_blank">Переход к CSS</a> 
+    <hr/>
+
+    <h3>Отображение картинок с помощью "img src="</h3>
+        <p>с помощью ссылки</p>
+            <img src="https://kartinkof.club/uploads/posts/2022-03/1648270055_34-kartinkof-club-p-mem-s-shrekom-36.jpg" width="400"/>
+
+        <p>с помощью локального хранилища</p>
+            <img src="для тренировки.jpg"width="400" />
+    <hr/>
+
+    <h3>Создание таблицы</h3>
+        <table border="2">
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+            </tr>
+            <tr>
+                <td>первая</td>
+                <td>вторая</td>
+                <td>третья</td>
+            </tr>
+            <tr>
+                <td>первая</td>
+                <td>вторая</td>
+                <td>третья</td>
+            </tr>
+        </table>
+    <hr/>
+
+    <h3>Знакомимся с input</h3>
+        <form>
+            <label for="name">ее название:</label>
+            <input type="text" id="name"
+            placeholder="напиши суда..."
+            value="input">
+            <input type="submit" value="название" id="name">
+
+            <br>
+
+            <label for="date">ее дата:</label>
+            <input type="date" id="date">
+
+            <br>
+
+            <label for="color">ее цвет:</label>
+            <input type="color" id="color">
+            <input type="radio" id="color">
+
+        </form>
+        
+
+    <hr/>
+
+    <script src="./main.js"></script>
+</body>
+</html>
